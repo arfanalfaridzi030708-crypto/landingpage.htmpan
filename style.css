@@ -1,0 +1,143 @@
+*{
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+ 
+ }
+
+ body {
+     background-color: rgb(233, 238, 238);
+ }     
+     
+  .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 5%;
+        background: #3b4c6b;
+        color: #fff;
+
+  }
+  
+  .logo, .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        list-style: none;
+        
+  }
+
+  .logo img {
+      height: 40px;
+  }
+   
+   .nav-links a {
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+  }
+  
+  .judul{
+     background-color: #fdfdfd;
+     text-align: center;
+     padding: 50px;
+     font-size: 15px;
+  }
+  .paragaf{
+    display: flex 10px;
+    height: 500px;
+    padding: 20px;
+    gap: 20px;
+    line-height: 2.3;
+    border-radius: 20px;
+    
+  } 
+  .section-jurusan {
+     padding: 50px 5%;
+     background:#f4f4f4;
+     text-align: center
+ } 
+ 
+ .hr-custom {
+    width: 60px;
+    height: 4px;
+    background: #010203;
+    border: none;
+    margin: 10px auto 30px;
+    
+  }
+  
+  .nama-jurusan {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 20px;
+  }
+
+  .card {
+      background: white;
+      padding: 25px;
+      border: 2px solid #000000;
+      text-align: center;
+  }
+  
+  #kontak {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#f4f4f4;
+    
+  }
+  
+  form {
+    width: 80%;
+    max-width: 800px;
+    padding: 40px;
+    background:
+    border-box 2px solid
+
+ }
+
+  input {
+    width:100;
+    padding:12px;
+    margin:10px 0;
+    border: 1px solid #ccc;
+    box-sizing:border-box;
+    
+ }
+   
+   input[type="submit"] {
+     background:rgb(255, 255, 255);
+     border: none;
+     font-weight: bold;
+     cursor: pointer;
+     
+ }
+   
+   input[type="reset"] {
+     background: rgb(248, 248, 248);
+     border: none;
+     cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+    
+ }
+
+ .footer {
+   background:#05070a;
+   color: white;
+   text-align: center;
+   padding: 70px;
+   border-top: yellow;
+   
+   
+ }
+
+ .footer p {
+   margin: 0;
+   font-size: 20px;
+ }
